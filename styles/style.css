@@ -21,6 +21,8 @@
     border: none;
     padding: 12px 36px;
     border-radius: 5px;
+    
+    
     box-sizing: border-box;
     
 }
@@ -212,6 +214,12 @@
     height: 100px;
   }
 
+  .form button{
+    width: 540px;
+ 
+    display : block;
+  }
+
 
 /* footer area */
 
@@ -262,4 +270,9 @@
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
+}
+
+.btn-primary:hover{
+    background-color: aqua;
+    cursor: pointer;
 }
